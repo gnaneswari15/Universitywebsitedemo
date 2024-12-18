@@ -1,0 +1,169 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Section */
+header {
+    background-color:black;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    
+}
+
+.header-container {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between;
+    padding: 0 30px;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto; /* Center align h1 horizontally */
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #fff;
+    color: #004d99;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.placement-img {
+    width: 1400px;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Statistics Section */
+.statistics {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.statistics h2 {
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.statistics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.statistics ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Recruiters Section */
+.recruiters {
+    text-align: center;
+}
+
+.recruiters h2 {
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.recruiters .logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recruiters .logos img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    text-align: center;
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.testimonials h2 {
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #333;
+}
+
+.testimonial h3 {
+    color: #004d99;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color:black;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
