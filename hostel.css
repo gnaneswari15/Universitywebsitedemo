@@ -13,6 +13,13 @@ body {
     padding: 1.5em 0;
     text-align: center;
 }
+.logo {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 
 .hostel-header nav ul {
     list-style: none;
